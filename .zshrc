@@ -10,7 +10,7 @@ export LANG="en_US.UTF-8"
 alias mirrorUpdate='sudo reflector --latest 250 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 alias pacmanGhost='~/.scripts/pacman.sh'
 alias splash='toilet -f mono12 -F rainbow 'FelipeCN'' #yay -S toilet ponysay --noconfirm
-alias ls='lsd'
+alias ls='ls'
 alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
@@ -19,11 +19,10 @@ alias ip='ip -c'
 alias rm='rm -i'
 alias x='ranger'
 alias c='cmus'
-alias h='htop'
+alias h='htop'P
 
 # Show OS info when opening a new terminal
-splash
-neofetch
+
 
 # Font mode for powerlevel9k
 P9K_MODE="nerdfont-complete"

@@ -23,3 +23,4 @@ export PATH=$HOME/.local/bin:$PATH
 
 # Go
 export PATH="$PATH:$HOME/go/bin"
+source "$HOME/.cargo/env"
